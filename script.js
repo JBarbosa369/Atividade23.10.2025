@@ -7,7 +7,7 @@ console.log(listadobrada); // imprime a lista com os valores dobrados
 let listapar = lista.filter(elemento => elemento % 2 === 0);// filtra os números pares da lista
 console.log(listapar);// imprime a lista com os números pares
 
-let listadobradapar = listapar.map(elemento => elemento * 2);// dobra cada elemento da lista de números pares
+let listadobradapar = lista .map(elemento => elemento * 2);// dobra cada elemento da lista de números pares
 console.log(listadobradapar);// imprime a lista com os valores dobrados dos números pares 
 
 let listamaiorcinco = lista.filter(elemento => elemento > 5);// filtra os números maiores que 5
@@ -19,3 +19,28 @@ console.log(listaencontrar); // imprime o número encontrado
 lista.forEach(elemento => {
     console.log(elemento);
 });// imprime cada elemento da lista original usando forEach
+
+
+
+let usuarios = [
+    {
+        nome: "Jeovana",
+        idade: 20
+    },
+
+    {
+        nome: "jeova",
+        idade: 22 
+    },
+
+    {
+        nome: "nayara",
+        idade: 14
+    },
+
+    {
+        nome: "alzenir",
+        idade: 32
+    }
+]
+
