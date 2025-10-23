@@ -16,3 +16,6 @@ console.log(listamaiorcinco);// imprime a lista com os números maiores que 5
 let listaencontrar = lista.find(elemento => elemento > 1);//   encontra o primeiro número maior que 1
 console.log(listaencontrar); // imprime o número encontrado
 
+lista.forEach(elemento => {
+    console.log(elemento);
+});// imprime cada elemento da lista original usando forEach
